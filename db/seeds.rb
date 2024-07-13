@@ -7,3 +7,6 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Article.find_or_create_by!(title: "Slow Jamz", body: "Still on rails")
+Article.find_or_create_by!(title: "Christmas In July", body: "another article")
